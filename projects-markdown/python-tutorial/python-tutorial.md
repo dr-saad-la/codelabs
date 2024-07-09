@@ -11,7 +11,7 @@ analytics account: UA-XXXXXX-X
 
 ## Introduction
 
-Welcome to the Python Environment Setup tutorial. This guide will walk you through setting up a Python development environment.
+Python Environment Setup tutorial. This guide will walk you through setting up a Python development environment on major platforms.
 
 ## What you'll learn
 
