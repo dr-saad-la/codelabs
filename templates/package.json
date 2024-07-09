@@ -1,0 +1,11 @@
+{
+  "name": "<CODELAB_NAME>",
+  "version": "1.0.0",
+  "description": "Codelab for <CODELAB_NAME>",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ <CODELAB_NAME>.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

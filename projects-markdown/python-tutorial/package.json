@@ -1,0 +1,11 @@
+{
+  "name": "python-tutorial",
+  "version": "1.0.0",
+  "description": "Codelab for python-tutorial",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ python-tutorial.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
