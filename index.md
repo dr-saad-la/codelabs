@@ -1,44 +1,62 @@
 # Data Science and Computing Versity
 
-Welcome to Data Science and Computing Versity! Explore our collection of comprehensive tutorials and expert tips across various domains.
+Welcome to Data Science and Computing Versity! Explore a comprehensive collection of tutorials, tips, and resources across various domains of data science and computing.
 
 ## Programming Tools
 
-### IDEs and Text Editors
-- [Visual Studio Code](https://dr-saad-la.github.io/codelabs/vscode/)
-- [PyCharm](https://dr-saad-la.github.io/codelabs/pycharm/)
-- [RStudio](https://dr-saad-la.github.io/codelabs/rstudio/)
-- [IntelliJ IDEA](https://dr-saad-la.github.io/codelabs/intellij/)
-- [Jupyter Notebook](https://dr-saad-la.github.io/codelabs/jupyter-notebook/)
+### Integrated Development Environment (IDEs)
+- **Visual Studio Code**: A versatile code editor with extensive language support and powerful extensions.
+- **PyCharm**: A dedicated Python IDE with intelligent code assistance and integrated tools.
+- **RStudio**: An integrated development environment for R with advanced plotting capabilities.
+- **IntelliJ IDEA**: A robust IDE for Java and other JVM languages with powerful code navigation.
+- **Jupyter Notebook**: An open-source web application for creating and sharing documents that contain live code, equations, visualizations, and narrative text.
+
+### Text Editors
+
+- **Sublime Text**
+- **Text Mate**:
+- **Vim**: Mvim, Neovim ...
+- **Emacs**: 
+- **Notepad plus plus**: 
 
 ## Programming Languages
-- [python-tutorial](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/#0)
+
 ### Python
-- [Python Tutorial](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/)
+- Step-by-step guide to setting up a Python environment on major platforms. [Read more](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/#0).
+
+- Explore Python for data analysis, web development, automation, and more.
 
 ### R
-- [R Tutorial](https://dr-saad-la.github.io/codelabs/r-tutorial/)
+- Detailed tutorials on statistical computing and graphics with R.
+- Learn R for data manipulation, visualization, and statistical modeling.
 
 ### Julia
-- [Julia Tutorial](https://dr-saad-la.github.io/codelabs/julia-tutorial/)
+- Learn Julia for high-performance numerical and scientific computing.
+- Explore tutorials on Julia's syntax, features, and applications in data science.
 
 ### Rust
-- [Rust Tutorial](https://dr-saad-la.github.io/codelabs/rust-tutorial/)
+- Discover the power of Rust for system programming.
+- Tutorials on Rust's syntax, memory safety, and concurrency features.
 
 ### C/C++
-- [C/C++ Tutorial](https://dr-saad-la.github.io/codelabs/cpp-tutorial/)
+- Tutorials on C and C++ programming for systems and applications.
+- Learn about memory management, data structures, and algorithms.
 
 ### Java
-- [Java Tutorial](https://dr-saad-la.github.io/codelabs/java-tutorial/)
+- Comprehensive guides on Java programming for enterprise applications.
+- Explore Java's object-oriented features, libraries, and frameworks.
 
 ### Scala
-- [Scala Tutorial](https://dr-saad-la.github.io/codelabs/scala-tutorial/)
+- Learn Scala for functional programming and JVM interoperability.
+- Tutorials on Scala's syntax, collections, and concurrency features.
 
 ### Haskell
-- [Haskell Tutorial](https://dr-saad-la.github.io/codelabs/haskell-tutorial/)
+- Discover the principles of functional programming with Haskell.
+- Tutorials on Haskell's syntax, type system, and monads.
 
 ### Bash
-- [Bash Tutorial](https://dr-saad-la.github.io/codelabs/bash-tutorial/)
+- Master Bash scripting for automation and system administration.
+- Tutorials on Bash syntax, commands, and script writing.
 
 ## Data Science
 
@@ -56,9 +74,24 @@ Delve into statistical analysis methods, hypothesis testing, regression analysis
 
 Comprehensive guides and tutorials on machine learning algorithms, model training, and evaluation.
 
+### Machine Learning Frameworks
+
+
+### Hyperparameter Tuning ML Models
+
+### Automating Machine Learning Models
+
 ## Deep Learning
 
 Explore deep learning concepts, neural networks, and frameworks like TensorFlow and PyTorch.
+
+### Deep Learning Frameworks 
+
+#### Tensorflow
+
+#### PyTorch
+
+#### FastAI 
 
 ## And More
 
