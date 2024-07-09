@@ -14,7 +14,7 @@ Welcome to Data Science and Computing Versity! Explore our collection of compreh
 ## Programming Languages
 
 ### Python
-- [Python Tutorial](https://dr-saad-la.github.io/codelabs/python-tutorial/)
+- [Python Tutorial](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/)
 
 ### R
 - [R Tutorial](https://dr-saad-la.github.io/codelabs/r-tutorial/)
