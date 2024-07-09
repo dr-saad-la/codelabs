@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-09T05:58:36+01:00",
+  "id": "python-environment-setup",
+  "duration": 0,
+  "title": "Python Environment Setup",
+  "authors": "Dr Saad Laouadi",
+  "summary": "Python Environment Setup",
+  "source": "python-tutorial.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "python",
+    "environment"
+  ],
+  "tags": [],
+  "feedback": "https://github.com/dr-saad-la/codelabs/issues",
+  "ga": "UA-XXXXXX-X",
+  "url": "python-environment-setup"
+}
