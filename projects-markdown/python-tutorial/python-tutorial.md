@@ -1,5 +1,5 @@
 summary: Python Environment Setup
-id: python-environment-setup
+id: python-tutorial
 categories: Python, Environment
 status: Published
 authors: Dr Saad Laouadi

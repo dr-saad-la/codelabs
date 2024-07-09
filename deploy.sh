@@ -11,7 +11,7 @@ fi
 
 CODELAB_NAME=$1
 PROJECTS_MARKDOWN_DIR="./projects-markdown/$CODELAB_NAME"
-CODELABS_DIR="./codelabs/$CODELAB_NAME"
+CODELABS_DIR="../../codelabs/$CODELAB_NAME"
 GITHUB_REPO_URL="https://github.com/dr-saad-la/codelabs.git"
 
 # Check if the markdown file exists
@@ -21,8 +21,20 @@ if [ ! -f "$PROJECTS_MARKDOWN_DIR/$CODELAB_NAME.md" ]; then
 fi
 
 # Export the codelab
+# cd $PROJECTS_MARKDOWN_DIR
+# claat export -o $CODELABS_DIR $CODELAB_NAME.md
+
+# Export the codelab
 cd $PROJECTS_MARKDOWN_DIR
-claat export -o $CODELABS_DIR $CODELAB_NAME.md
+claat export -o ../../codelabs $CODELAB_NAME.md
+
+# Move the content to the correct directory
+cd ../../codelabs
+if [ -d "$CODELAB_NAME/$CODELAB_NAME" ]; then
+    mv $CODELAB_NAME/$CODELAB_NAME/* $CODELAB_NAME/
+    rm -rf $CODELAB_NAME/$CODELAB_NAME
+fi
+
 
 # Navigate to the codelab directory
 cd $CODELABS_DIR
