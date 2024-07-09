@@ -12,7 +12,7 @@ Welcome to Data Science and Computing Versity! Explore our collection of compreh
 - [Jupyter Notebook](https://dr-saad-la.github.io/codelabs/jupyter-notebook/)
 
 ## Programming Languages
-
+- [python-tutorial](https://dr-saad-la.github.io/codelabs/python-tutorial/)
 ### Python
 - [Python Tutorial](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/)
 
