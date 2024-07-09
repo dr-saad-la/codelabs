@@ -11,8 +11,13 @@ fi
 
 CODELAB_NAME=$1
 PROJECTS_MARKDOWN_DIR="./projects-markdown/$CODELAB_NAME"
-CODELABS_DIR="../../codelabs/$CODELAB_NAME"
+CODELABS_DIR="../codelabs/$CODELAB_NAME"
 GITHUB_REPO_URL="https://github.com/dr-saad-la/codelabs.git"
+
+echo "The current working directory $(pwd)"
+echo $CODELAB_NAME
+echo $CODELABS_DIR
+echo $PROJECTS_MARKDOWN_DIR
 
 # Check if the markdown file exists
 if [ ! -f "$PROJECTS_MARKDOWN_DIR/$CODELAB_NAME.md" ]; then
@@ -48,7 +53,7 @@ git push --force "$GITHUB_REPO_URL" main:gh-pages
 
 # Update the index.md with the link to the codelab
 INDEX_FILE="../../index.md"
-CODELAB_URL="https://dr-saad-la.github.io/codelabs/$CODELAB_NAME/"
+CODELAB_URL="https://dr-saad-la.github.io/codelabs/codelabs/$CODELAB_NAME/#0"
 
 if grep -q "$CODELAB_URL" "$INDEX_FILE"; then
     echo "Link to $CODELAB_NAME already exists in index.md"
