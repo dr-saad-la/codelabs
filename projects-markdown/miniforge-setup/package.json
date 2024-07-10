@@ -1,0 +1,11 @@
+{
+  "name": "miniforge-setup",
+  "version": "1.0.0",
+  "description": "Codelab for miniforge-setup",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ miniforge-setup.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
