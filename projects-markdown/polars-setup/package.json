@@ -1,0 +1,11 @@
+{
+  "name": "polars-setup",
+  "version": "1.0.0",
+  "description": "Codelab for polars-setup",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ polars-setup.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
