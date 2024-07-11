@@ -1,0 +1,11 @@
+{
+  "name": "windows-cli-tools",
+  "version": "1.0.0",
+  "description": "Codelab for windows-cli-tools",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ windows-cli-tools.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
