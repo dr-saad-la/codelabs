@@ -1,0 +1,11 @@
+{
+  "name": "common-linux-commands",
+  "version": "1.0.0",
+  "description": "Codelab for common-linux-commands",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ common-linux-commands.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
