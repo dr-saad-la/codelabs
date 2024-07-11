@@ -1,0 +1,11 @@
+{
+  "name": "julia-essentials",
+  "version": "1.0.0",
+  "description": "Codelab for julia-essentials",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ julia-essentials.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
