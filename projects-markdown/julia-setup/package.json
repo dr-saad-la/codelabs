@@ -1,0 +1,11 @@
+{
+  "name": "julia-setup",
+  "version": "1.0.0",
+  "description": "Codelab for julia-setup",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ julia-setup.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
