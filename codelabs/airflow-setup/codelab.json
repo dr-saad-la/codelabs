@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-14T23:41:37+01:00",
+  "id": "airflow-setup",
+  "duration": 20,
+  "title": "Apache Airflow Environment Setup Tutorial",
+  "summary": "Comprehensive guide to setup up environment for Apache Airflow",
+  "source": "airflow-setup.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "dataengineering",
+    "automation"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/airflow-setup",
+  "url": "airflow-setup"
+}
