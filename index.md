@@ -1,6 +1,6 @@
 # Data Science and Computing Versity
 
-Welcome to Data Science and Computing Versity! Explore a comprehensive collection of tutorials, tips, and resources across various domains of data science and computing.
+Data Science and Computing Versity is a space or a versity of short, well explained tutorials in the real of data science, data engineering, computing and other diverse of tools. 
 
 ## Programming Tools
 
