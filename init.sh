@@ -18,7 +18,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 CODELAB_NAME=$1
-AUTHOR_NAME="Your Name"
+AUTHOR_NAME="Dr Saad Laouadi"
 PROJECTS_MARKDOWN_DIR="projects-markdown/$CODELAB_NAME"
 CODELABS_DIR="codelabs/$CODELAB_NAME"
 MARKDOWN_TEMPLATE="templates/markdown.template"
