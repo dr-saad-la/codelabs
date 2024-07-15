@@ -1,6 +1,6 @@
 author: Dr. Saad Laouadi
 summary: A comprehensive guide to mastering Mamba Essentials, focusing on command-line tools for efficient package management.
-id: mamba-essential
+id: mamba-essentials
 tags: [command-line, package management, Mamba, Conda]
 categories: [Command-Line Tools, Package Management]
 environments: Web, Terminal

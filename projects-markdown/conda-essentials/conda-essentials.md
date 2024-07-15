@@ -1,6 +1,6 @@
 author: Dr. Saad Laouadi
 summary: A comprehensive guide to mastering Conda Essentials, focusing on command-line tools for efficient package management.
-id: conda-essential
+id: conda-essentials
 tags: [command-line, package management, Conda]
 categories: [Command-Line Tools, Package Management]
 environments: Web, Terminal
