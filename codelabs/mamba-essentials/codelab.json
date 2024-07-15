@@ -1,0 +1,30 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-15T02:36:28+01:00",
+  "id": "mamba-essentials",
+  "duration": 24,
+  "title": "Mamba Package Manager Tool Essentials",
+  "summary": "A comprehensive guide to mastering Mamba Essentials, focusing on command-line tools for efficient package management.",
+  "source": "mamba-essentials.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "[command-linetools",
+    "packagemanagement]"
+  ],
+  "tags": [
+    "[command-line",
+    "conda]",
+    "mamba",
+    "packagemanagement",
+    "terminal",
+    "web"
+  ],
+  "feedback": "https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/mamba-essentials",
+  "url": "mamba-essentials"
+}
