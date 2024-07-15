@@ -19,9 +19,19 @@ Data Science and Computing Versity is a space or a versity of short, well explai
 - **Emacs**: 
 - **Notepad plus plus**: 
 
+## Command Line Tools
+
+### Linux Based Systems Command Line Tools
+
+
+### Windows Command Line Tools
+
+
+### Data Science Command Line Based Tools
+
+- [Mamba Essentials]((https://dr-saad-la.github.io/codelabs/codelabs/mamba-essentials/#0)
+
 ## Programming Languages
-
-
 
 ### Python
 - Step-by-step guide to setting up a Python environment on major platforms. [Read more](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/#0).
