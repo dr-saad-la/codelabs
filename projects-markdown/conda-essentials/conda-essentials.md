@@ -76,7 +76,47 @@ Follow these steps to install Conda on your system:
 
 Duration: 0:05:00
 
-Txt
+### Creating an Environment
+To create a new environment with Conda, use the following command:
+```bash
+conda create --name myenv
+```
+
+Replace `myenv` with your desired environment name.
+
+#### Activating an Environment
+
+Activate the newly created environment using:
+
+```bash
+conda activate myenv
+```
+
+#### Deactivating an Environment
+
+To deactivate the current environment, run:
+
+```bash
+conda deactivate
+```
+
+#### Listing Environments
+To list all available environments, use:
+
+```bash
+conda env list
+```
+
+#### Removing an Environment
+
+To remove an environment, run:
+
+```bash
+conda remove --name myenv --all
+```
+
+Replace `myenv` with the name of the environment you want to remove.
+
 
 <!-- ------------------------ -->
 ## Installing and Managing Packages
