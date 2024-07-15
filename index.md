@@ -30,6 +30,7 @@ Data Science and Computing Versity is a space or a versity of short, well explai
 ### Data Science Command Line Based Tools
 
 - [Mamba Essentials](https://dr-saad-la.github.io/codelabs/codelabs/mamba-essential/#0)
+- [Conda Essentails](https://dr-saad-la.github.io/codelabs/codelabs/conda-essentials/#0)
 
 ## Programming Languages
 

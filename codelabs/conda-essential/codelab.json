@@ -1,0 +1,29 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-15T02:31:36+01:00",
+  "id": "conda-essential",
+  "duration": 29,
+  "title": "Conda Package Manager Tool Essentials",
+  "summary": "A comprehensive guide to mastering Conda Essentials, focusing on command-line tools for efficient package management.",
+  "source": "conda-essentials.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "[command-linetools",
+    "packagemanagement]"
+  ],
+  "tags": [
+    "[command-line",
+    "conda]",
+    "packagemanagement",
+    "terminal",
+    "web"
+  ],
+  "feedback": "https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/conda-essentials",
+  "url": "conda-essential"
+}
