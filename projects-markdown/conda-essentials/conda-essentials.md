@@ -24,13 +24,13 @@ In this tutorial, we will cover:
 - Key features of Conda
 
 <aside class="positive">
-💡 **Info:** Conda is a powerful package manager that helps you manage packages and environments for various programming languages, including Python and R.
+💡 <strong>Info:</strong> Conda is a powerful package manager that helps you manage packages and environments for various programming languages, including Python and R.
 </aside>
 
 Conda is an open-source package management and environment management system that runs on Windows, macOS, and Linux. It quickly installs, runs, and updates packages and their dependencies. Conda also easily creates, saves, loads, and switches between environments on your local computer.
 
 <aside class="negative">
-⚠️ **Caution:** While Conda is versatile and powerful, always ensure that you are using the appropriate channels and dependencies to avoid compatibility issues.
+⚠️ <strong>Caution:</strong>: While Conda is versatile and powerful, always ensure that you are using the appropriate channels and dependencies to avoid compatibility issues.
 </aside>
 
 <!-- ================================================== -->

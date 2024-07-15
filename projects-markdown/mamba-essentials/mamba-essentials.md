@@ -26,13 +26,13 @@ In this tutorial, we will cover:
 
 
 <aside class="positive">
-💡 Info:** Mamba significantly speeds up package installation and environment management compared to Conda.
+💡 <strong>Info</strong>: Mamba significantly speeds up package installation and environment management compared to Conda.
 </aside>
 
 Mamba is an open-source package manager that reimplements the Conda package manager in C++. It aims to provide faster package solving and installation times. This tutorial is designed for users who are already familiar with Conda and want to leverage the speed and efficiency of Mamba for their projects.
 
 <aside class="negative">
-⚠️ **Caution:** While Mamba is faster, it may have occasional compatibility issues with certain Conda packages. Always verify package compatibility.
+⚠️ <strong>Caution</strong>: While Mamba is faster, it may have occasional compatibility issues with certain Conda packages. Always verify package compatibility.
 </aside>
 
 
