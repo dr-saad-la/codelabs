@@ -50,9 +50,13 @@ To start this tutorial, you need the following environment setup:
 
 Furthermore, you should be familiar with:
 
-- Txt
-- Txt
-
+- Command Line Applications such as:
+	- Linux based Terminal applications: Terminal, Iterm2 ...
+	- Windows Command Prompt, Terminal ...
+- Basic or intermediate command line commands:
+	- Creating directories
+	- Navigating directories 
+	
 <aside class="positive">
 Info box
 </aside>
