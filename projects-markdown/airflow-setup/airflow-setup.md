@@ -99,21 +99,3 @@ Thank you for participating in this tutorial. If you found any issues along the 
 
 *Dr Saad Laouadi (2024) | [saad-laouadi](https://www.dr-saad-la.github.io) | Made with [Codelabs](https://github.com/googlecodelabs/tools)*
 
-
-
-# airflow-setup
-
-## Introduction
-Welcome to the airflow-setup tutorial. This guide will walk you through the essentials of <TOPIC>.
-
-## Prerequisites
-List the prerequisites here.
-
-## Step 1: Setup
-Describe the setup process here.
-
-## Step 2: Development
-Explain the development process step-by-step.
-
-## Conclusion
-Summarize the tutorial and next steps.
