@@ -95,5 +95,3 @@ Next, you may want to proceed with this tutorial:
 Thank you for participating in this tutorial. If you found any issues along the way I'd appreciate it if you'd raise them by clicking the "Report a mistake" button at the bottom left of this site.
 
 *Dr Saad Laouadi (2024) | [saad-laouadi](https://www.dr-saad-la.github.io) | Made with [Codelabs](https://github.com/googlecodelabs/tools)*
-
-
