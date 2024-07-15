@@ -87,7 +87,28 @@
       </google-codelab-step>
     
       <google-codelab-step label="Creating and Managing Environments" duration="5">
-        <p>Txt</p>
+        <h2 is-upgraded>Creating an Environment</h2>
+<p>To create a new environment with Conda, use the following command:</p>
+<pre><code language="language-bash" class="language-bash">conda create --name myenv
+</code></pre>
+<p>Replace <code>myenv</code> with your desired environment name.</p>
+<h3 is-upgraded>Activating an Environment</h3>
+<p>Activate the newly created environment using:</p>
+<pre><code language="language-bash" class="language-bash">conda activate myenv
+</code></pre>
+<h3 is-upgraded>Deactivating an Environment</h3>
+<p>To deactivate the current environment, run:</p>
+<pre><code language="language-bash" class="language-bash">conda deactivate
+</code></pre>
+<h3 is-upgraded>Listing Environments</h3>
+<p>To list all available environments, use:</p>
+<pre><code language="language-bash" class="language-bash">conda env list
+</code></pre>
+<h3 is-upgraded>Removing an Environment</h3>
+<p>To remove an environment, run:</p>
+<pre><code language="language-bash" class="language-bash">conda remove --name myenv --all
+</code></pre>
+<p>Replace <code>myenv</code> with the name of the environment you want to remove.</p>
 
 
       </google-codelab-step>
