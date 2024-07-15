@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2024-07-14T23:41:37+01:00",
+  "updated": "2024-07-15T01:31:17+01:00",
   "id": "airflow-setup",
   "duration": 20,
   "title": "Apache Airflow Environment Setup Tutorial",
