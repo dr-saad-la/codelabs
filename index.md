@@ -124,8 +124,10 @@ Explore deep learning concepts, neural networks, and frameworks like TensorFlow 
 ### Deep Learning Frameworks 
 
 #### Tensorflow
+- [Tensorflow-setup]()
 
 #### PyTorch
+- [torch-setup]()
 
 #### FastAI 
 
