@@ -1,0 +1,11 @@
+{
+  "name": "datascience-project-structure",
+  "version": "1.0.0",
+  "description": "Codelab for datascience-project-structure",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ datascience-project-structure.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
