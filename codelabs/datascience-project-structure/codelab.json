@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-21T16:40:42+01:00",
+  "id": "datascience-project-structure",
+  "duration": 19,
+  "title": "Title",
+  "summary": "A step by step tutorial on how to structure a data science project from reading data to deployment.",
+  "source": "datascience-project-structure.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": null,
+  "tags": [
+    "[data-science",
+    "]",
+    "web"
+  ],
+  "feedback": "https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/datascience-project-structure.md",
+  "url": "datascience-project-structure"
+}

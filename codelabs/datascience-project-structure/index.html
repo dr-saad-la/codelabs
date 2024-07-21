@@ -1,0 +1,172 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="datascience-project-structure"
+                  title="Title"
+                  environment="web"
+                  feedback-link="https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/datascience-project-structure.md">
+    
+      <google-codelab-step label="Overview" duration="5">
+        <p>In this tutorial, I will explain the steps of organizing data science projects, how to structure each folder, from the beginning untill the project deployment:</p>
+<h2 is-upgraded>What we cover</h2>
+<p>In this tutorial we will cover:</p>
+<ol type="1">
+<li>Create folder structure</li>
+<li>Set up working environment with <code>conda</code> or <code>mamba</code></li>
+<li>Document the project using <code>sphinx</code></li>
+<li>Deploying the project using <code>FastAPI</code> or <code>flask</code></li>
+</ol>
+<aside class="special"><p> Info box </p>
+</aside>
+<p>Some text</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prerequisites" duration="7">
+        <p>This tutorial is meant for entry level data or junior data scientists, so I assume you have the necessary skills to create an entire data science project, here are the main requisites:</p>
+<ol type="1">
+<li>Working with command line tools</li>
+<li>Familiarity with data science comand line tools such as <code>conda</code></li>
+<li>Already mastering Jupyter notebook (or equivalent IDE)</li>
+<li>Familiarity with github actions, <code>flask</code> or <code>FastAPI</code></li>
+</ol>
+<aside class="special"><p> Info box </p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Set up Data Science Main Working Directory" duration="0">
+        <ol type="1">
+<li>Change to the desired working directory. In this tutorial, we will consider the home directory as our main working directory:<ul>
+<li>Change to home directory: <ul>
+<li>Linux-based systems: <pre><code language="language-sh" class="language-sh">cd ~  
+</code></pre>
+</li>
+<li>Windows: <pre><code language="language-sh" class="language-sh">cd %HOMEPATH%
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Create the working directory for your project. For this tutorial, we&#39;ll assume a project on car price prediction:<pre><code language="language-sh" class="language-sh">mkdir car-project
+</code></pre>
+</li>
+<li>Change to the newly created directory:<pre><code language="language-sh" class="language-sh">cd car-project
+</code></pre>
+</li>
+</ol>
+<h2 is-upgraded>Creating the data directory</h2>
+<ol type="1">
+<li>Create a directory to store data in: <pre><code language="language-sh" class="language-sh">mkdir data
+</code></pre>
+</li>
+</ol>
+<aside class="warning"><p><strong>Important</strong>: Note that data is immutable, so never edit the main data. Keep it as is. So we will create different folders inside this directory </p>
+</aside>
+<ol type="1" start="2">
+<li>Create Data Sub-directories:<ul>
+<li>Create <code>raw</code>: <pre><code language="language-sh" class="language-sh">mkdir data/raw
+</code></pre>
+</li>
+<li>Create <code>processed</code>: <pre><code language="language-sh" class="language-sh">mkdir data/processed
+</code></pre>
+</li>
+<li>Create <code>interim</code>: <pre><code language="language-sh" class="language-sh">mkdir data/interim
+</code></pre>
+</li>
+<li>Create <code>external</code>: <pre><code language="language-sh" class="language-sh">mkdir data/external
+</code></pre>
+</li>
+</ul>
+</li>
+<li>All in one: You can do all the previous steps in once by running the follwing command:<pre><code language="language-sh" class="language-sh">mkdir -p data/raw data/processed data/interim data/external
+</code></pre>
+</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The notebooks Directory" duration="5">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The model directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The documentation directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The Report Directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The Graphics Directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The Script Directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The Deplyment Directory" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="What&#39;s next?" duration="2">
+        <p>Congratulations! You have completed the tutorial and learned how to:</p>
+<p>✅ Install<br> ✅ Use<br> ✅ Implement</p>
+<p>Next, you may want to proceed with this tutorial:</p>
+<ul>
+<li>💻<a href="https://dr-saad-la.github.io/codelabs/codelabs/CODELAB_NAME" target="_blank"></a></li>
+</ul>
+<p>Thank you for participating in this tutorial. If you found any issues along the way I&#39;d appreciate it if you&#39;d raise them by clicking the &#34;Report a mistake&#34; button at the bottom left of this site.</p>
+<p><em>Dr Saad Laouadi (2024) | </em><a href="https://www.dr-saad-la.github.io" target="_blank"><em>saad-laouadi</em></a><em> | Made with </em><a href="https://github.com/googlecodelabs/tools" target="_blank"><em>Codelabs</em></a></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
