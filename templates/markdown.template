@@ -5,14 +5,14 @@ tags:
 categories:
 environments: Web
 status: Published
-feedback link: https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/CODELAB_NAME/CODELAB_NAME.md
+feedback link: https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/CODELAB_NAME.md
 
 # Title
 
-<!-- ------------------------ -->
+<!-- ------------------------------------ -->
+
+
 ## Overview
-
-
 
 Duration: 0:05:00
 
@@ -23,14 +23,15 @@ In this tutorial we
 Info box
 </aside>
 
-Txt
+Some text 
 
 <aside class="negative">
 Info box
 </aside>
 
 
-<!-- ------------------------ -->
+<!-- ------------------------------------ -->
+
 ## Prerequisites
 
 Duration: 0:07:00
@@ -38,19 +39,18 @@ Duration: 0:07:00
 To start this tutorial, you need the following environment setup:
 
 - I recommend to use the data science platform Anaconda: [Installation tutorial]()
-- Txt
+- Some text
 
 Furthermore, you should be familiar with:
 
-- Txt
-- Txt
+- Point 01
+- Point 02
 
 <aside class="positive">
 Info box
 </aside>
 
-<!-- ------------------------ -->
-## Txt
+## Section
 
 Duration: 0:05:00
 
@@ -64,17 +64,19 @@ brew install go
 
 ![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
 
-Txt
+some text
 
 
 <!-- ------------------------ -->
-## Txt
+## Section Title
 
 Duration: 0:05:00
 
-Txt
+some text
+
 
 <!-- ------------------------ -->
+
 ## What's next?
 
 Duration: 0:02:00
