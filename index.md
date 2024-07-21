@@ -35,7 +35,7 @@ Data Science and Computing Versity is a space or a versity of short, well explai
 - [Conda Essentails](https://dr-saad-la.github.io/codelabs/codelabs/conda-essentials/#0)
 
 ## Programming Languages
-- [vim-essential-settings](https://dr-saad-la.github.io/codelabs/codelabs/vim-essential-settings/#0)
+- [datascience-project-structure](https://dr-saad-la.github.io/codelabs/codelabs/datascience-project-structure/#0)- [vim-essential-settings](https://dr-saad-la.github.io/codelabs/codelabs/vim-essential-settings/#0)
 ### Python
 - Step-by-step guide to setting up a Python environment on major platforms. [Read more](https://dr-saad-la.github.io/codelabs/codelabs/python-tutorial/#0).
 
