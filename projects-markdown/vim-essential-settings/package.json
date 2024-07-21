@@ -1,0 +1,11 @@
+{
+  "name": "vim-essential-settings",
+  "version": "1.0.0",
+  "description": "Codelab for vim-essential-settings",
+  "scripts": {
+    "start": "nodemon -w . -e md -x 'claat export -o ../../codelabs/ vim-essential-settings.md'"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
