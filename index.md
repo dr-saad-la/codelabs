@@ -13,9 +13,10 @@ Data Science and Computing Versity is a space or a versity of short, well explai
 
 ### Text Editors
 
+- **VIM Text Editors**:
+	1. [VIM Essential Setings](https://dr-saad-la.github.io/codelabs/codelabs/vim-essential-settings/#0)
 - **Sublime Text**
 - **Text Mate**:
-- **Vim**: Mvim, Neovim ...
 - **Emacs**: 
 - **Notepad plus plus**: 
 
