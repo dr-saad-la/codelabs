@@ -77,6 +77,11 @@ Data Science and Computing Versity is a space or a versity of short, well explai
 
 Explore resources and tutorials on data science, including data manipulation, visualization, and analysis techniques.
 
+1. [Data Science Project Structure](https://dr-saad-la.github.io/codelabs/codelabs/datascience-project-structure/#0)
+2. [Documenting Data Science Projects](#)
+3. [Automating Data Science Projects](#)
+4. [Deploying Data Science Projects](#)
+
 ### Data Engineering
 
 Learn about data engineering practices, including ETL processes, data warehousing, and data pipeline development.
