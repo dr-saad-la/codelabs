@@ -1,0 +1,30 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-21T15:41:27+01:00",
+  "id": "vim-essential-settings",
+  "duration": 18,
+  "title": "VIM Text Editor Essential Settings",
+  "summary": "Learn the essential settings for the VIM text editor to improve productivity and coding efficiency.",
+  "source": "vim-essential-settings.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "[texteditors",
+    "productivitytools]"
+  ],
+  "tags": [
+    "[vim",
+    "coding",
+    "configuration]",
+    "productivity",
+    "texteditor",
+    "web"
+  ],
+  "feedback": "https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/vim-essential-settings.md",
+  "url": "vim-essential-settings"
+}

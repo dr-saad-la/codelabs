@@ -1,0 +1,260 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>VIM Text Editor Essential Settings</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="vim-essential-settings"
+                  title="VIM Text Editor Essential Settings"
+                  environment="web"
+                  feedback-link="https://github.com/dr-saad-la/codelabs/tree/main/projects-markdown/vim-essential-settings.md">
+    
+      <google-codelab-step label="Overview" duration="5">
+        <p>This guide will walk you through the essentials of VIM Text editor.</p>
+<p>In this codelab we will introduce you to the essential settings in Vim, a highly configurable text editor used by many programmers and power users.</p>
+<p>By the end of this tutorial, you will be able to customize your Vim environment to enhance your productivity and streamline your workflow.</p>
+<p>We will use the <strong>TE</strong> to refer to <strong>Text Editor</strong></p>
+<h2 is-upgraded>What we cover</h2>
+<p>In this tutorial we will cover:</p>
+<ul>
+<li><strong>What is VIM?</strong>: Introduction to VIM text editor</li>
+<li><strong>Different flavors of VIM</strong>: The different types of VIM editors.</li>
+<li><strong>Installing VIM</strong>: Learn how to install VIM on different platforms.</li>
+<li><strong>VIM Modes</strong>: Learn the different modes of VIM TE</li>
+<li><strong>Basic Settings</strong>: Learn how to set up basic configurations such as: <ul>
+<li>line numbers</li>
+<li>Syntax highlighting</li>
+<li>Indentation.</li>
+</ul>
+</li>
+<li><strong>Customization</strong>: Explore ways to personalize Vim with themes and plugins to suit your preferences.</li>
+<li><strong>Productivity Enhancements</strong>: Implement settings and plugins that improve your coding efficiency and experience.</li>
+<li><strong>File Navigation</strong>: Discover how to navigate between files and directories efficiently using built-in Vim commands.</li>
+</ul>
+<aside class="special"><p> 💡 <strong>Tip:</strong> Customizing Vim can greatly enhance your productivity and make your coding experience more enjoyable. </p>
+</aside>
+<aside class="warning"><p> ⚠️ <strong>Note:</strong> Some advanced customizations may require additional plugins or familiarity with Vimscript. Make sure to test new configurations in a safe environment before applying them to your main setup. </p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prerequisites" duration="1">
+        <p>To start this tutorial, you don&#39;t need much, just:</p>
+<ol type="1">
+<li><strong>Be open to learning</strong>: Be ready to master a powerful new tool.</li>
+<li><strong>Commitment to Keyboard Navigation</strong>: Prepare to ditch the mouse and rely solely on keyboard navigation.</li>
+<li><strong>Desire to Switch to a Command-Based Editor</strong>: Have the determination to transition to a text editor that relies heavily on commands.</li>
+<li><strong>Integration with Preferred Tools</strong>: Be open to integrating Vim with other tools and workflows you currently use.</li>
+<li><strong>Curiosity</strong>: Be eager to explore the capabilities and flexibility of Vim.</li>
+<li><strong>Confidence</strong>: Enjoy the process and don&#39;t hesitate to show off your skills as you become proficient with Vim, looking like a professional computer scientist.</li>
+</ol>
+<p>While these attitudes and mindsets are essential, familiarity with command line tools is also preferred as it will ease the learning curve.</p>
+<aside class="special"><p> 💡 <strong>Tip:</strong> Having a basic understanding of programming concepts and being comfortable with other text editors can make learning Vim easier and more intuitive. </p>
+</aside>
+<aside class="warning"><p> ⚠️ <strong>Note:</strong> Vim has a steep learning curve for beginners. It is normal to feel overwhelmed initially, but with practice, Vim becomes a powerful and efficient tool. </p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="What is VIM?" duration="5">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Different Types of VIM Text Editor" duration="5">
+        <p>Vim comes in several variants, each catering to different needs and environments:</p>
+<ol type="1">
+<li><strong>Vim</strong>: The standard version available on most Unix-based systems. It provides a robust set of features suitable for everyday text editing.</li>
+<li><strong>GVim</strong>: The graphical version of Vim, offering menus and toolbars for users who prefer a GUI. It includes all the features of Vim with additional graphical elements.</li>
+<li><strong>Neovim</strong>: An extensible and modernized fork of Vim, designed to provide better performance and more advanced features, including improved plugin architecture and asynchronous execution.</li>
+<li><strong>MacVim</strong>: A macOS-specific version of Vim, which integrates seamlessly with macOS&#39;s look and feel, providing a native experience for Mac users.</li>
+<li><strong>Vim in IDEs</strong>: Many IDEs (like VSCode and IntelliJ) offer Vim emulation through plugins, allowing users to leverage Vim keybindings and commands within their preferred development environment.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Installing VIM" duration="0">
+        <h2 is-upgraded>Installing VIM on MAC Machines</h2>
+<p>Since I am a Mac user, I wanted to start setting VIM on Mac Machines</p>
+<pre><code language="language-sh" class="language-sh">brew install vim
+</code></pre>
+<p>Check if <code>vim</code> is installed</p>
+<pre><code language="language-sh" class="language-sh">vim --version
+</code></pre>
+<p>Check where vim is install</p>
+<pre><code language="language-sh" class="language-sh">which vim
+</code></pre>
+<h2 is-upgraded>Installing VIM on Linux</h2>
+<h3 is-upgraded>Installing VIM on Debian/Ubuntu</h3>
+<h3 is-upgraded>Installing VIM on Fedora</h3>
+<h2 is-upgraded>Installing VIM on Windows Machines</h2>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Understanding VIM Modes" duration="0">
+        <p>Vim operates in different modes, each designed for specific tasks:</p>
+<ol type="1">
+<li><strong>Normal Mode</strong>: The default mode for navigating and manipulating text. Use commands to delete, copy, and move text.</li>
+<li><strong>Insert Mode</strong>: Enter this mode by pressing <code>i</code>. It allows you to insert and edit text.</li>
+<li><strong>Visual Mode</strong>: Accessed by pressing <code>v</code>. It lets you select and manipulate blocks of text.</li>
+<li><strong>Command-Line Mode</strong>: Enter this mode by pressing <code>:</code>. It is used for executing commands like saving (<code>:w</code>), quitting (<code>:q</code>), and searching.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Hello VIM" duration="0">
+        <ol type="1">
+<li>Open VIM: open vim by typing <code>vim</code> on your terminal</li>
+<li>Exit VIM: Press <code>esc</code> key then type <code>:</code> and the <code>q</code> at the lower left corner of the screen to exit vim editor</li>
+</ol>
+<h2 is-upgraded>Explore VIM</h2>
+<h2 is-upgraded>Get Help from VIM Documentation</h2>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Basic Settings" duration="0">
+        <h2 is-upgraded>Understanding VIM Essentials</h2>
+<ol type="1">
+<li><strong>Comments</strong>:</li>
+</ol>
+<h2 is-upgraded>Setting Folder Structure</h2>
+<pre><code language="language-text" class="language-text">/.vim
+├── autoload/                  # Contains scripts that define functions loaded automatically as needed.
+├── backup/                    # Stores backup files created during editing sessions.
+├── colors/                    # Holds color scheme files to customize Vim&#39;s appearance.
+└── plugged/                   # Manages Vim plugins and their files, typically used with a plugin manager.
+</code></pre>
+<p>Here is example of an already configured VIM</p>
+<pre><code language="language-text" class="language-text">.vim/
+├── autoload/                  # Contains scripts that are loaded automatically when needed.
+│   └── &lt;plugin_name&gt;.vim      # Example files that define functions to be autoloaded.
+│
+├── backup/                    # Stores backup files for edited files.
+│   └── &lt;backup_file&gt;.vim      # Example backup files created during editing.
+│
+├── colors/                    # Contains color scheme files for Vim.
+│   └── &lt;color_scheme&gt;.vim     # Example color scheme files to customize Vim&#39;s appearance.
+│
+└── plugged/                   # Holds Vim plugins managed by a plugin manager (e.g., vim-plug).
+    └── &lt;plugin_name&gt;/         # Directory for each plugin with its own files.
+        └── &lt;plugin_files&gt;.vim
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Essentials Settings" duration="0">
+        <p>Personally I prefer to comment my code as well as configuration file, so whenever I get back to them later, or I change to a different machie, I won&#39;t need to look up a command again.</p>
+<ol type="1">
+<li>Commenting Lines in VIM: The <code>"</code> is the comment character in VIM scripting language</li>
+<li>Creating Banners to separate different setting sections</li>
+</ol>
+<p>for example: The general setting will look more like this:</p>
+<pre><code language="language-text" class="language-text">&#34; ========================================================
+&#34;			General Settings
+&#34; ========================================================
+
+
+&#34; ========================================================
+&#34;			Plugins Settings
+&#34; ========================================================
+
+
+&#34; ========================================================
+&#34;			Other Section Setting
+&#34; ========================================================
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Essential Commands" duration="0">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Installing Vim Plurgins" duration="0">
+        <ol type="1">
+<li>First you need to install Vim-plug, to do so run the following command:</li>
+</ol>
+<pre><code language="language-sh" class="language-sh">curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</code></pre>
+<ol type="1" start="2">
+<li>Edit <code>.vimrc</code> vim config file: Open your .vimrc file in Vim:</li>
+</ol>
+<pre><code language="language-sh" class="language-sh">vim ~/.vimrc
+</code></pre>
+<ol type="1" start="3">
+<li>Add vim-plug Initialization: Add the following lines to your <code>.vimrc</code> to initialize vim-plug and specify the plugins you want to install:</li>
+</ol>
+<pre><code language="language-vim" class="language-vim">call plug#begin(&#39;~/.vim/plugged&#39;)
+
+&#34; List the plugins you want to install
+
+&#34; Example plugin
+Plug &#39;tpope/vim-sensible&#39;
+
+&#34; Add other plugins here
+
+&#34; Initialize plugin system
+call plug#end()
+</code></pre>
+<ol type="1" start="4">
+<li>Install Plugins: Open Vim and run the following command to install the plugins specified in your <code>.vimrc</code>:</li>
+</ol>
+<pre><code language="language-vim" class="language-vim">:PlugInstall
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="What&#39;s next?" duration="2">
+        <p>Congratulations! You have completed the tutorial and here is what you have learned:</p>
+<p>✅ What is VIM<br> ✅ Different Types of VIM editors<br> ✅ Essential VIM Setup<br> ✅ Essential VIM commands</p>
+<p>Next, you may want to proceed with this tutorial:</p>
+<p>There is an upcomming tutorial about VIM Intermediate (stay tuned)</p>
+<ul>
+<li>💻<a href="https://dr-saad-la.github.io/codelabs/codelabs/vim-intermediate" target="_blank">VIM Intermediate Tutorial</a></li>
+</ul>
+<p>Thank you for participating in this tutorial. If you found any issues along the way I&#39;d appreciate it if you&#39;d raise them by clicking the &#34;Report a mistake&#34; button at the bottom left of this site.</p>
+<p><em>Dr Saad Laouadi (2024) | </em><a href="https://www.dr-saad-la.github.io" target="_blank"><em>saad-laouadi</em></a><em> | Made with </em><a href="https://github.com/googlecodelabs/tools" target="_blank"><em>Codelabs</em></a></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
