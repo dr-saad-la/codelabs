@@ -17,9 +17,9 @@ This repository contains a collection of interactive tutorials and hands-on codi
 - [Jupyter Notebook](#jupyter-notebook)
 
 ### Text Editors
+- [Vim](https://dr-saad-la.github.io/codelabs/codelabs/vim-essential-settings/#0)
 - [Sublime Text](#sublime-text)
 - [Text Mate](#text-mate)
-- [Vim](#vim)
 - [Emacs](#emacs)
 - [Notepad++](#notepad)
 
